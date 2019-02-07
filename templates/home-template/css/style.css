@@ -1,0 +1,90 @@
+/* CSS for Header */
+header{
+    /* padding-top: 10px; */
+}
+header nav{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+nav ul{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+/* CSS for Content */
+.content-height{
+    min-height: 560px;
+}
+.banner{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    opacity: 0.8;
+    z-index: 1;
+}
+.notepad-bg{
+    /* padding: 0px; */
+    /* position: absolute;  */
+    height: 500px;
+    background-image: url('../img/notepad1.jpg');
+    background-size: cover;
+    background-position: 0% 25%;
+    /* width height */
+    /* background-position: 90%; */
+    /* x - axis y - axis */
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.banner-text{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    z-index: 3;
+}
+.banner-column:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #222;
+    opacity: 0.7;
+    z-index: 1000;
+}
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+/* title-spacer is not my name, should change later. */
+hr.title-spacer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #007bff;
+    width: 70px;
+}
+.video-box{
+    width: 563px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+/* CSS fro Footer */
+footer{
+    padding-top: 10px;
+}
+.footer-links{
+    float: left;
+    list-style-type: none;
+}
+.footer-links li{
+    display: inline-block;
+}
+.copyrights{
+    float: right;
+}
